@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:pos-cli-swift}",
+      "name": "Debug pos-cli-swift",
+      "program": "${workspaceFolder:pos-cli-swift}/.build/debug/pos-cli-swift",
+      "preLaunchTask": "swift: Build Debug pos-cli-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:pos-cli-swift}",
+      "name": "Release pos-cli-swift",
+      "program": "${workspaceFolder:pos-cli-swift}/.build/release/pos-cli-swift",
+      "preLaunchTask": "swift: Build Release pos-cli-swift"
+    }
+  ]
+}
